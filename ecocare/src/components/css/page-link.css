@@ -1,0 +1,23 @@
+.page-link-container{
+    border: 2px solid red;
+    background-color: rgb(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 5px;
+    width: 450px;
+    height: 30vh;
+    margin: 0 40px 0 40px;
+    transition: 0.2s;
+}
+.page-link-container:hover{
+    background-color: rgb(0, 0, 0, 0.35);
+}
+
+@media (max-width: 870px){
+    .page-link-container{
+        border: 2px solid red;
+        width: 250px;
+        height: 30vh;
+        margin-bottom: 20px;
+    }
+  
+  }

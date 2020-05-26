@@ -12,6 +12,7 @@ import data from "./data/linkdata.json";
 function App() {
   return (
       <div className="App">
+        <div className="layer">
         {/* <Router>
         <Nav />
           <Route path="/mission" component={Mission} />
@@ -31,7 +32,7 @@ function App() {
         </div>
 
 
-        
+        </div>
       </div>
   );
 }

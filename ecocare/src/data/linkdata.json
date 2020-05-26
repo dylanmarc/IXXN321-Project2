@@ -3,7 +3,18 @@
       {
         "title": "Mission",
         "blurb": "What we are trying to achieve as a company",
-        "image": "../images/mission-icon.svg"
+        "image": "./images/mission-icon.svg"
+      },
+      {
+        "title": "Our Team",
+        "blurb": "Our team that makes all of this possible",
+        "image": "./images/team-icon.png"
+      },
+      {
+        "title": "Contact Us",
+        "blurb": "Send us a message",
+        "image": "./images/mail-icon.svg"
       }
     ]
-}
+
+  }
