@@ -1,19 +1,23 @@
 {
     "linkdata": [
       {
-        "title": "Mission",
+        "title": "MISSION",
         "blurb": "What we are trying to achieve as a company",
-        "image": "./images/mission-icon.svg"
+        "image": "https://i.imgur.com/eeIaWSt.png",
+        "path": "/mission"
+
       },
       {
-        "title": "Our Team",
+        "title": "OUR TEAM",
         "blurb": "Our team that makes all of this possible",
-        "image": "./images/team-icon.png"
+        "image": "https://i.imgur.com/9Ns0vE7.png",
+        "path": "/team"
       },
       {
-        "title": "Contact Us",
+        "title": "CONTACT US",
         "blurb": "Send us a message",
-        "image": "./images/mail-icon.svg"
+        "image": "https://i.imgur.com/b06OqrY.png",
+        "path": "/contactpage"
       }
     ]
 

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+html{
+  overflow-x: hidden;
+}
+.App {
+  text-align: center;
+  background-image: url("../../images/forest2.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 102vh;
+  min-width: 350px;
+}
+.layer{
+  background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 102vh;
+}
+
+.top-section{
+  padding-top: 50px;
+  width: 100vw;
+  padding-bottom: 60px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.top-section h1{
+  font-size: 115px;
+  margin: 0;
+}
+
+.top-section h2{
+  font-size: 40px;
+  font-family: 'Roboto';
+  font-weight: 100;
+  margin: -1vw;
+}
+
+.logo{
+  width: 500px;
+}
+
+.bottom-section{
+
+}
+
+.page-links{
+  display: flex;
+  margin: auto;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  min-height: 360px;
+}
+
+@media (max-width: 870px){
+  .page-links{
+    margin-top: 20px;
+    flex-direction: column;
+  }
+  
+  .logo{
+    width: 250px;
+  }
+
+  .top-section{
+    padding-bottom: 0;
+  }
+  
+  .top-section h1{
+  font-size: 60px;
+  }
+
+  .top-section h2{
+  font-size: 23px;
+  }
+
+  .App{
+    height:1500px;
+  }
+  .layer{
+    height:1500px;
+  }
+  .top-section{
+    height: 250px;
+  }
+}

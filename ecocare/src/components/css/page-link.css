@@ -1,22 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
 .page-link-container{
-    border: 2px solid red;
+    width: 30vw;
+    height: 360px;
+    border: 2px solid rgb(0, 0, 0, 0.4);
     background-color: rgb(0, 0, 0, 0.2);
     border-radius: 10px;
     padding: 5px;
-    width: 450px;
-    height: 30vh;
-    margin: 0 40px 0 40px;
+    display: flex;
+    align-content: center;
+    justify-content: start;
+    flex-direction: column;
+    margin: 0 1vw 0 1vw;
     transition: 0.2s;
+    font-family: 'Roboto';
 }
 .page-link-container:hover{
-    background-color: rgb(0, 0, 0, 0.35);
+    background-color: rgb(0, 0, 0, 0.5);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.page-link-container h1{
+    font-weight: 600;
+    letter-spacing: 10px;
+    margin-top: 0;
+
+}
+.page-link-container h2{
+    font-weight: 50;
+    
+}
+
+.page-link-container img{
+    margin: auto;
 }
 
 @media (max-width: 870px){
     .page-link-container{
-        border: 2px solid red;
         width: 250px;
-        height: 30vh;
+        height: 350px;
         margin-bottom: 20px;
     }
   
