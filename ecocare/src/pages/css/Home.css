@@ -44,9 +44,6 @@ html{
   width: 500px;
 }
 
-.bottom-section{
-
-}
 
 .page-links{
   display: flex;
@@ -72,11 +69,12 @@ html{
   }
   
   .top-section h1{
-  font-size: 60px;
+    font-size: 60px;
   }
 
   .top-section h2{
-  font-size: 23px;
+    margin-top: 0;
+    font-size: 23px;
   }
 
   .Home{

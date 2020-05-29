@@ -44,21 +44,51 @@
 
 .second-section{
     display: flex;
-    width: 40vw;
+    width: 70vw;
     margin: auto;
 }
 
 .second-section p{
     margin-top: 0;
-    flex: 3;
+    flex: 1.5;
     text-align: left;
 }
 
 .image2{
     background-image: url(../../images/lion.jpg);
-    flex: 2;
+    flex: 1;
     height: 600px;
     margin-bottom: 50px;
     background-size: cover;
     background-position: center;
+}
+
+@media (max-width: 900px){
+    .mission h1{
+        font-size: 8vw;
+    }
+
+    .line{
+        width: 70vw;
+    }
+    
+    .mission h2{
+        font-size: 5vw;
+    }
+
+    .first-section p{
+        font-size: 3.2vw;
+    }
+
+    .second-section{
+      width: 95vw;
+    }
+
+    .second-section p{
+        font-size: 3.2vw;
+    }
+
+    .image2{
+        height: 100vw;
+    }
 }

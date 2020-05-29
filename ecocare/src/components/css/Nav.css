@@ -15,9 +15,31 @@
 
 .nav-link{
     padding-left: 20px;
-
+    transition: 0.2s;
+}
+.nav-link:hover{
+    font-size: 35px;
+    transition: 0.2s;
 }
 
-img{
+.nav-link img{
     width: 100px;
+    transition: 0.2s;
 }
+.nav-link img:hover{
+    width: 110px;
+}
+
+@media (max-width: 585px){
+    .main-nav{
+        font-size: 5vw;
+        height: 20vw;
+    }
+    .nav-link{
+        padding-left: 3vw;
+    }
+    .nav-link img{
+        width: 15vw;
+    }
+  
+  }
