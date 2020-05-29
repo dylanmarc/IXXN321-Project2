@@ -21,16 +21,11 @@ export default function Home() {
           <h2>CARETAKERS OF MOTHER EARTH</h2>
         </div>
 
-        <Router>
           <div className="bottom-section">
             <div className="page-links">
               {data.linkdata.map(i => <PageLinks title={i.title} image={i.image} blurb={i.blurb} path={i.path} />)}
             </div>
           </div>
-          <Route path="/mission" component={Mission} />
-          <Route path="/team" component={Team} />
-          <Route path="/contactpage" component={ContactPage} />
-        </Router>
         
 
 

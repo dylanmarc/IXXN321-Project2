@@ -1,8 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import './App.css';
-import PageLinks from "./components/js/PageLinks.js";
-import data from "./data/linkdata.json";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Nav from "./components/js/Nav.js";
 
 import Home from "./pages/js/Home";
@@ -15,11 +12,12 @@ export default function App() {
   return (
       <div className="App">
           <Router>
-          <Nav />
-          <Route path="/home" component={Home} />
-          <Route path="/mission" component={Mission} />
-          <Route path="/team" component={Team} />
-          <Route path="/contactpage" component={ContactPage} />
+          <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/mission" component={Mission} />
+          <Route exact path="/team" component={Team} />
+          <Route exact path="/contactpage" component={ContactPage} />
+          </Switch>
           </Router>
         </div>
   );

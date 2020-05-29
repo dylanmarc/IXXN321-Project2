@@ -1,0 +1,20 @@
+{
+    "employeedata": [
+      {
+        "name": "Dave Jones",
+        "job": "Lead Developer",
+        "image": "https://i.imgur.com/eeIaWSt.png"
+      },
+      {
+        "name": "Tony Ferguson",
+        "job": "Developer",
+        "image": "https://i.imgur.com/eeIaWSt.png"
+      },
+      {
+        "name": "Conor Smith",
+        "job": "Project Manager",
+        "image": "https://i.imgur.com/eeIaWSt.png"
+      }
+    ]
+
+  }
