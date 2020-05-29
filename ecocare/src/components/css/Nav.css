@@ -6,8 +6,18 @@
     width: 100vw;
     height: 70px;
     background-color: #284113;
+    background-image: url(../../images/nav-bg.jpg);
     font-family: 'Roboto';
     font-size: 30px;
     display: flex;
     align-items: center;
+}
+
+.nav-link{
+    padding-left: 20px;
+
+}
+
+img{
+    width: 100px;
 }

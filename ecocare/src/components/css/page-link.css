@@ -36,8 +36,9 @@ a{
     
 }
 
-.page-link-container img{
+.page-link-img{
     margin: auto;
+    width: 220px;
 }
 
 @media (max-width: 870px){
