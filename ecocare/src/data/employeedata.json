@@ -21,15 +21,26 @@
         "image": "contact"
       },
       {
-        "name": "Tony Ferguson",
-        "job": "Developer",
+        "name": "Dave Jones",
+        "job": "Lead Developer",
         "image": "contact"
       },
       {
-        "name": "Conor Smith",
-        "job": "Project Manager",
+        "name": "Dave Jones",
+        "job": "Lead Developer",
+        "image": "contact"
+      },{
+        "name": "Dave Jones",
+        "job": "Lead Developer",
+        "image": "contact"
+      },
+      {
+        "name": "Dave Jones",
+        "job": "Lead Developer",
         "image": "contact"
       }
+      
+      
     ]
 
   }

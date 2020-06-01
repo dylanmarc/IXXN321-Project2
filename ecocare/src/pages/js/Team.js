@@ -25,8 +25,15 @@ function displayEmployees(data){
         var arr=data;
         var elements=[];
         for(var i=0;i<arr.length;i++){
-            elements.push(<EmployeeCard name={ arr[i].name } image={ arr[i].image } job={ arr[i].job } blurb={ arr[i].blurb } />);
-            // elements.push(<EmployeeCard name={ arr[i+1].name } image={ arr[i+1].image } job={ arr[i+1].job } blurb={ arr[i+1].blurb } />);
+            if(i + 2 < arr.length){
+                elements.push(<div className='row'><EmployeeCard name={ arr[i].name } image={ arr[i].image } job={ arr[i].job } blurb={ arr[i].blurb } />, <EmployeeCard name={ arr[i+1].name } image={ arr[i+1].image } job={ arr[i+1].job } blurb={ arr[i+1].blurb } />, <EmployeeCard name={ arr[i].name } image={ arr[i].image } job={ arr[i].job } blurb={ arr[i].blurb } /></div>);
+                i+=2;
+            }else if(i + 1 < arr.length){
+                elements.push(<div className='row'><EmployeeCard name={ arr[i].name } image={ arr[i].image } job={ arr[i].job } blurb={ arr[i].blurb } />, <EmployeeCard name={ arr[i+1].name } image={ arr[i+1].image } job={ arr[i+1].job } blurb={ arr[i+1].blurb } /></div>);
+                i+=1
+            }else{
+                elements.push(<div className='row'><EmployeeCard name={ arr[i].name } image={ arr[i].image } job={ arr[i].job } blurb={ arr[i].blurb } /></div>);
+            }
         }
         
         return (
