@@ -2,10 +2,19 @@
 
 .card-container{
     background-color: #95E698;
-    width: 200px;
-    height: 300px;
+    width: 250px;
+    height: 350px;
     font-family: 'Roboto';
-    margin: 0 10px 0 10px;
+    margin: 1vw 3vw 1vw 3vw;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px #666666;
+    transition: 0.2s;
+}
+
+.card-container:hover{
+    background-color: #4AD54E;
+    margin: 0 3vw 1vw 3vw;
+    box-shadow: 0px 1.2vw 10px #666666;
 }
 
 .card-top{
@@ -15,6 +24,7 @@
 .employee-img{
     width: 140px;
     border-radius: 100px;
+    margin-top: 20px;
 }
 
 .card-bottom{
@@ -27,4 +37,54 @@
 
 .card-bottom h2{
 
+}
+
+@media (max-width: 960px){
+    .card-container{
+        width: 27vw;
+        height: 50vw;
+        font-family: 'Roboto';
+        margin: 1vw 3vw 4vw 3vw;
+    }
+    .employee-img{
+        width: 20vw;
+        margin-top: 3vw;
+    }
+    .card-bottom h1{
+        font-size: 4.5vw;
+    }
+    
+    .card-bottom h2{
+        font-size: 3.5vw;
+    }
+}
+
+@media (max-width: 600px){
+    .card-container{
+        width: 50vw;
+        height: 70vw;
+        margin: 5vw 3vw 5vw 3vw;
+    }
+    .card-container:hover{
+        width: 50vw;
+        height: 73vw;
+        margin: 5vw 3vw 5vw 3vw;
+    }
+    
+    .card-top{
+    
+    }
+    
+    .employee-img{
+        width: 30vw;
+    }
+    
+    .card-bottom h1{
+        font-size: 7vw;
+    }
+    
+    .card-bottom h2{
+        font-size: 5vw;
+    }
+    
 }

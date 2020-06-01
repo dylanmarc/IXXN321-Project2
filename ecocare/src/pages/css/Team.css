@@ -4,7 +4,7 @@
     font-family: 'Roboto';
     background-image: url(../../images/page-bg.jpg);
     width: 100vw;
-    height: 950px;
+    
     text-align: center;
 }
 
@@ -23,7 +23,6 @@ h1{
     display: flex;
     color: black;
     width: 90%;
-    border: 2px solid red;
     margin: 50px auto 0 auto;
     justify-content: center;
 }
@@ -35,8 +34,17 @@ h1{
     margin-bottom: 30px;
 }
 
+@media (max-width: 960px){
+    .employees{
+        margin: 2vw auto 0 auto;
+    }
+    
+    .row{
+        margin-bottom: 0;
+    }
+}
 
-@media (max-width: 480px){
+@media (max-width: 600px){
     h1{
         font-size: 8vw;
     }
@@ -44,25 +52,8 @@ h1{
         width: 70vw;
     }
     
-    .txtinput{
-        margin-bottom: 2vw;
-        margin-top: 2vw;
-        width: 80vw;
-        height: 15vw;
-        font-size: 7vw;
-    }
-    #message{
-        margin-bottom: 5vw;
-        margin-top: 5vw;
-        width: 80vw;
-        height: 50vw;
-        font-size: 6vw;
-    }
-    #submit{
-        width: 30vw;
-        height: 20vw;
-        font-size: 8vw;
-        margin-left: 52vw;
+    .row{
+        flex-direction: column;
     }
     
 }
