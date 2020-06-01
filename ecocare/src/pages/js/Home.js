@@ -1,12 +1,8 @@
 import React from 'react'
-import { BrowserRouter as Router, Route } from "react-router-dom";
 import '../css/Home.css';
 import PageLinks from "../../components/js/PageLinks.js";
 import data from "../../data/linkdata.json";
 
-import Mission from "./Mission";
-import Team from "./Team";
-import ContactPage from "./ContactPage";
 
 
 export default function Home() {

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.card-container{
+    background-color: #95E698;
+    width: 200px;
+    height: 300px;
+    font-family: 'Roboto';
+    margin: 0 10px 0 10px;
+}
+
+.card-top{
+
+}
+
+.employee-img{
+    width: 140px;
+    border-radius: 100px;
+}
+
+.card-bottom{
+
+}
+
+.card-bottom h1{
+    font-size: 30px;
+}
+
+.card-bottom h2{
+
+}

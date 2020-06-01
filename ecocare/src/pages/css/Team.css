@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-.mission{
+.team{
     font-family: 'Roboto';
     background-image: url(../../images/page-bg.jpg);
     width: 100vw;
+    height: 950px;
     text-align: center;
+}
+
+h1{
+    font-size: 50px;
 }
 
 .line{
@@ -14,81 +19,43 @@
     background-color: black;
 }
 
-.first-section{
-    width: 60vw;
-    margin: auto;
-}
-
-.mission h1{
-    font-size: 60px;
-    margin-bottom: 10px;
-}
-
-.mission h2{
-    font-size: 40px;
-    font-weight: 600;
-    margin-top: 40px;
-}
-
-.mission p{
-    font-size: 25px;
-}
-
-.image1{
-    margin: auto;
-    background-image: url(../../images/monkey.jpg);
-    height: 200px;
-    background-size: cover;
-    background-position: center;
-}
-
-.second-section{
+.employees{
     display: flex;
-    width: 70vw;
-    margin: auto;
+    color: black;
+    width: 90%;
+    border: 2px solid red;
+    margin: 50px auto 0 auto;
+    justify-content: center;
 }
 
-.second-section p{
-    margin-top: 0;
-    flex: 1.5;
-    text-align: left;
-}
 
-.image2{
-    background-image: url(../../images/lion.jpg);
-    flex: 1;
-    height: 600px;
-    margin-bottom: 50px;
-    background-size: cover;
-    background-position: center;
-}
-
-@media (max-width: 900px){
-    .mission h1{
+@media (max-width: 480px){
+    h1{
         font-size: 8vw;
     }
-
     .line{
         width: 70vw;
     }
     
-    .mission h2{
-        font-size: 5vw;
+    .txtinput{
+        margin-bottom: 2vw;
+        margin-top: 2vw;
+        width: 80vw;
+        height: 15vw;
+        font-size: 7vw;
     }
-
-    .first-section p{
-        font-size: 3.2vw;
+    #message{
+        margin-bottom: 5vw;
+        margin-top: 5vw;
+        width: 80vw;
+        height: 50vw;
+        font-size: 6vw;
     }
-
-    .second-section{
-      width: 95vw;
+    #submit{
+        width: 30vw;
+        height: 20vw;
+        font-size: 8vw;
+        margin-left: 52vw;
     }
-
-    .second-section p{
-        font-size: 3.2vw;
-    }
-
-    .image2{
-        height: 100vw;
-    }
+    
 }

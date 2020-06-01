@@ -1,11 +1,6 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import '../css/Mission.css';
 import Nav from "../../components/js/Nav.js";
-
-import Home from "./Home";
-import Team from "./Team";
-import ContactPage from "./ContactPage";
 
 export default function Mission() {
 

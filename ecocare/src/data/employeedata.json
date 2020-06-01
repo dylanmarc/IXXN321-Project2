@@ -3,17 +3,32 @@
       {
         "name": "Dave Jones",
         "job": "Lead Developer",
-        "image": "https://i.imgur.com/eeIaWSt.png"
+        "image": "contact"
       },
       {
         "name": "Tony Ferguson",
         "job": "Developer",
-        "image": "https://i.imgur.com/eeIaWSt.png"
+        "image": "contact"
       },
       {
         "name": "Conor Smith",
         "job": "Project Manager",
-        "image": "https://i.imgur.com/eeIaWSt.png"
+        "image": "contact"
+      },
+      {
+        "name": "Dave Jones",
+        "job": "Lead Developer",
+        "image": "contact"
+      },
+      {
+        "name": "Tony Ferguson",
+        "job": "Developer",
+        "image": "contact"
+      },
+      {
+        "name": "Conor Smith",
+        "job": "Project Manager",
+        "image": "contact"
       }
     ]
 
