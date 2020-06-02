@@ -17,6 +17,10 @@
     box-shadow: 0px 1.2vw 10px #666666;
 }
 
+a{
+    color: black;
+}
+
 .card-top{
 
 }
@@ -36,13 +40,17 @@
 }
 
 .card-bottom h2{
-
+    font-size: 22px;
 }
+.card-bottom h3{
+    font-size: 22px;
+}
+
 
 @media (max-width: 960px){
     .card-container{
         width: 27vw;
-        height: 50vw;
+        height: 350px;
         font-family: 'Roboto';
         margin: 1vw 3vw 4vw 3vw;
     }
@@ -62,17 +70,13 @@
 @media (max-width: 600px){
     .card-container{
         width: 50vw;
-        height: 70vw;
+        height: 55vw;
         margin: 5vw 3vw 5vw 3vw;
     }
     .card-container:hover{
         width: 50vw;
-        height: 73vw;
+        height: 60vw;
         margin: 5vw 3vw 5vw 3vw;
-    }
-    
-    .card-top{
-    
     }
     
     .employee-img{

@@ -6,6 +6,7 @@ import Home from "./pages/js/Home";
 import Mission from "./pages/js/Mission";
 import Team from "./pages/js/Team";
 import ContactPage from "./pages/js/ContactPage";
+import Employee from "./pages/js/Employee";
 
 
 export default function App() {
@@ -17,6 +18,7 @@ export default function App() {
           <Route exact path="/mission" component={Mission} />
           <Route exact path="/team" component={Team} />
           <Route exact path="/contactpage" component={ContactPage} />
+          <Route path="/:handle" component={Employee} />
           </Switch>
           </Router>
         </div>

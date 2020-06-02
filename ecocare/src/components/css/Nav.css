@@ -13,9 +13,12 @@
     align-items: center;
 }
 
+
+
 .nav-link{
     padding-left: 20px;
     transition: 0.2s;
+    color: white;
 }
 .nav-link:hover{
     font-size: 35px;
