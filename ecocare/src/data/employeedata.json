@@ -1,54 +1,52 @@
 {
-    "employeedata": [
-      {
-        "name": "Rose Namajunas",
-        "job": "Lead Developer",
-        "image": "contact",
-        "blurb": "Blurb about employee, who they are, what they do, previous accomplishements, how long they have been working here, motivations, etc. Blurb about employee, who they are, what they do, previous accomplishements, how long they have been working here, motivations, etc. Nullam massa magna, rutrum vel nisl varius, malesuada mattis augue. Praesent lobortis tortor nibh, ut dapibus risus molestie ut. Proin interdum interdum justo, nec tincidunt eros vehicula vel. Curabitur vitae venenatis nunc. Morbi consequat placerat tortor non mollis. Nulla ornare, est non vehicula gravida, dolor odio ullamcorper ex, eget suscipit eros risus id risus."
-      },
-      {
-        "name": "Tony Ferguson",
-        "job": "Developer",
-        "image": "contact",
-        "blurb": "Blurb about employee, who they are, what they do, previous accomplishements, how long they have been working here, motivations, etc. Blurb about employee, who they are, what they do, previous accomplishements, how long they have been working here, motivations, etc. Nullam massa magna, rutrum vel nisl varius, malesuada mattis augue. Praesent lobortis tortor nibh, ut dapibus risus molestie ut. Proin interdum interdum justo, nec tincidunt eros vehicula vel. Curabitur vitae venenatis nunc. Morbi consequat placerat tortor non mollis. Nulla ornare, est non vehicula gravida, dolor odio ullamcorper ex, eget suscipit eros risus id risus."
-      },
-      {
-        "name": "Conor Smith",
-        "job": "Project Manager",
-        "image": "contact",
-        "blurb": "Blurb about employee, who they are, what they do, previous accomplishements, how long they have been working here, motivations, etc. Blurb about employee, who they are, what they do, previous accomplishements, how long they have been working here, motivations, etc. Nullam massa magna, rutrum vel nisl varius, malesuada mattis augue. Praesent lobortis tortor nibh, ut dapibus risus molestie ut. Proin interdum interdum justo, nec tincidunt eros vehicula vel. Curabitur vitae venenatis nunc. Morbi consequat placerat tortor non mollis. Nulla ornare, est non vehicula gravida, dolor odio ullamcorper ex, eget suscipit eros risus id risus."
-      },
-      {
-        "name": "Dominick Cruz",
-        "job": "Analyst",
-        "image": "contact",
-        "blurb": "Blurb about employee, who they are, what they do, previous accomplishements, how long they have been working here, motivations, etc. Blurb about employee, who they are, what they do, previous accomplishements, how long they have been working here, motivations, etc. Nullam massa magna, rutrum vel nisl varius, malesuada mattis augue. Praesent lobortis tortor nibh, ut dapibus risus molestie ut. Proin interdum interdum justo, nec tincidunt eros vehicula vel. Curabitur vitae venenatis nunc. Morbi consequat placerat tortor non mollis. Nulla ornare, est non vehicula gravida, dolor odio ullamcorper ex, eget suscipit eros risus id risus."
-      },
-      {
-        "name": "Amanda Nunes",
-        "job": "Administrator",
-        "image": "contact",
-        "blurb": "Blurb about employee, who they are, what they do, previous accomplishements, how long they have been working here, motivations, etc. Blurb about employee, who they are, what they do, previous accomplishements, how long they have been working here, motivations, etc. Nullam massa magna, rutrum vel nisl varius, malesuada mattis augue. Praesent lobortis tortor nibh, ut dapibus risus molestie ut. Proin interdum interdum justo, nec tincidunt eros vehicula vel. Curabitur vitae venenatis nunc. Morbi consequat placerat tortor non mollis. Nulla ornare, est non vehicula gravida, dolor odio ullamcorper ex, eget suscipit eros risus id risus."
-      },
-      {
-        "name": "Jon Jones",
-        "job": "Network Engineer",
-        "image": "contact",
-        "blurb": "Blurb about employee, who they are, what they do, previous accomplishements, how long they have been working here, motivations, etc. Blurb about employee, who they are, what they do, previous accomplishements, how long they have been working here, motivations, etc. Nullam massa magna, rutrum vel nisl varius, malesuada mattis augue. Praesent lobortis tortor nibh, ut dapibus risus molestie ut. Proin interdum interdum justo, nec tincidunt eros vehicula vel. Curabitur vitae venenatis nunc. Morbi consequat placerat tortor non mollis. Nulla ornare, est non vehicula gravida, dolor odio ullamcorper ex, eget suscipit eros risus id risus."
-      },{
-        "name": "Joanna Reed",
-        "job": "Systems Engineer",
-        "image": "contact",
-        "blurb": "Blurb about employee, who they are, what they do, previous accomplishements, how long they have been working here, motivations, etc. Blurb about employee, who they are, what they do, previous accomplishements, how long they have been working here, motivations, etc. Nullam massa magna, rutrum vel nisl varius, malesuada mattis augue. Praesent lobortis tortor nibh, ut dapibus risus molestie ut. Proin interdum interdum justo, nec tincidunt eros vehicula vel. Curabitur vitae venenatis nunc. Morbi consequat placerat tortor non mollis. Nulla ornare, est non vehicula gravida, dolor odio ullamcorper ex, eget suscipit eros risus id risus."
-      },
-      {
-        "name": "Rashad Evans",
-        "job": "Data Scientist",
-        "image": "contact",
-        "blurb": "Blurb about employee, who they are, what they do, previous accomplishements, how long they have been working here, motivations, etc. Blurb about employee, who they are, what they do, previous accomplishements, how long they have been working here, motivations, etc. Nullam massa magna, rutrum vel nisl varius, malesuada mattis augue. Praesent lobortis tortor nibh, ut dapibus risus molestie ut. Proin interdum interdum justo, nec tincidunt eros vehicula vel. Curabitur vitae venenatis nunc. Morbi consequat placerat tortor non mollis. Nulla ornare, est non vehicula gravida, dolor odio ullamcorper ex, eget suscipit eros risus id risus."
-      }
-      
-      
-    ]
-
-  }
+  "employeedata": [
+    {
+      "name": "Rose Namajunas",
+      "job": "Lead Developer",
+      "image": "contact",
+      "blurb": "Blurb about employee, who they are, what they do, previous accomplishements, how long they have been working here, motivations, etc. Blurb about employee, who they are, what they do, previous accomplishements, how long they have been working here, motivations, etc. Nullam massa magna, rutrum vel nisl varius, malesuada mattis augue. Praesent lobortis tortor nibh, ut dapibus risus molestie ut. Proin interdum interdum justo, nec tincidunt eros vehicula vel. Curabitur vitae venenatis nunc. Morbi consequat placerat tortor non mollis. Nulla ornare, est non vehicula gravida, dolor odio ullamcorper ex, eget suscipit eros risus id risus."
+    },
+    {
+      "name": "Tony Ferguson",
+      "job": "Developer",
+      "image": "contact",
+      "blurb": "Blurb about employee, who they are, what they do, previous accomplishements, how long they have been working here, motivations, etc. Blurb about employee, who they are, what they do, previous accomplishements, how long they have been working here, motivations, etc. Nullam massa magna, rutrum vel nisl varius, malesuada mattis augue. Praesent lobortis tortor nibh, ut dapibus risus molestie ut. Proin interdum interdum justo, nec tincidunt eros vehicula vel. Curabitur vitae venenatis nunc. Morbi consequat placerat tortor non mollis. Nulla ornare, est non vehicula gravida, dolor odio ullamcorper ex, eget suscipit eros risus id risus."
+    },
+    {
+      "name": "Conor Smith",
+      "job": "Project Manager",
+      "image": "contact",
+      "blurb": "Blurb about employee, who they are, what they do, previous accomplishements, how long they have been working here, motivations, etc. Blurb about employee, who they are, what they do, previous accomplishements, how long they have been working here, motivations, etc. Nullam massa magna, rutrum vel nisl varius, malesuada mattis augue. Praesent lobortis tortor nibh, ut dapibus risus molestie ut. Proin interdum interdum justo, nec tincidunt eros vehicula vel. Curabitur vitae venenatis nunc. Morbi consequat placerat tortor non mollis. Nulla ornare, est non vehicula gravida, dolor odio ullamcorper ex, eget suscipit eros risus id risus."
+    },
+    {
+      "name": "Dominick Cruz",
+      "job": "Analyst",
+      "image": "contact",
+      "blurb": "Blurb about employee, who they are, what they do, previous accomplishements, how long they have been working here, motivations, etc. Blurb about employee, who they are, what they do, previous accomplishements, how long they have been working here, motivations, etc. Nullam massa magna, rutrum vel nisl varius, malesuada mattis augue. Praesent lobortis tortor nibh, ut dapibus risus molestie ut. Proin interdum interdum justo, nec tincidunt eros vehicula vel. Curabitur vitae venenatis nunc. Morbi consequat placerat tortor non mollis. Nulla ornare, est non vehicula gravida, dolor odio ullamcorper ex, eget suscipit eros risus id risus."
+    },
+    {
+      "name": "Amanda Nunes",
+      "job": "Administrator",
+      "image": "contact",
+      "blurb": "Blurb about employee, who they are, what they do, previous accomplishements, how long they have been working here, motivations, etc. Blurb about employee, who they are, what they do, previous accomplishements, how long they have been working here, motivations, etc. Nullam massa magna, rutrum vel nisl varius, malesuada mattis augue. Praesent lobortis tortor nibh, ut dapibus risus molestie ut. Proin interdum interdum justo, nec tincidunt eros vehicula vel. Curabitur vitae venenatis nunc. Morbi consequat placerat tortor non mollis. Nulla ornare, est non vehicula gravida, dolor odio ullamcorper ex, eget suscipit eros risus id risus."
+    },
+    {
+      "name": "Jon Jones",
+      "job": "Network Engineer",
+      "image": "contact",
+      "blurb": "Blurb about employee, who they are, what they do, previous accomplishements, how long they have been working here, motivations, etc. Blurb about employee, who they are, what they do, previous accomplishements, how long they have been working here, motivations, etc. Nullam massa magna, rutrum vel nisl varius, malesuada mattis augue. Praesent lobortis tortor nibh, ut dapibus risus molestie ut. Proin interdum interdum justo, nec tincidunt eros vehicula vel. Curabitur vitae venenatis nunc. Morbi consequat placerat tortor non mollis. Nulla ornare, est non vehicula gravida, dolor odio ullamcorper ex, eget suscipit eros risus id risus."
+    },
+    {
+      "name": "Joanna Reed",
+      "job": "Systems Engineer",
+      "image": "contact",
+      "blurb": "Blurb about employee, who they are, what they do, previous accomplishements, how long they have been working here, motivations, etc. Blurb about employee, who they are, what they do, previous accomplishements, how long they have been working here, motivations, etc. Nullam massa magna, rutrum vel nisl varius, malesuada mattis augue. Praesent lobortis tortor nibh, ut dapibus risus molestie ut. Proin interdum interdum justo, nec tincidunt eros vehicula vel. Curabitur vitae venenatis nunc. Morbi consequat placerat tortor non mollis. Nulla ornare, est non vehicula gravida, dolor odio ullamcorper ex, eget suscipit eros risus id risus."
+    },
+    {
+      "name": "Rashad Evans",
+      "job": "Data Scientist",
+      "image": "contact",
+      "blurb": "Blurb about employee, who they are, what they do, previous accomplishements, how long they have been working here, motivations, etc. Blurb about employee, who they are, what they do, previous accomplishements, how long they have been working here, motivations, etc. Nullam massa magna, rutrum vel nisl varius, malesuada mattis augue. Praesent lobortis tortor nibh, ut dapibus risus molestie ut. Proin interdum interdum justo, nec tincidunt eros vehicula vel. Curabitur vitae venenatis nunc. Morbi consequat placerat tortor non mollis. Nulla ornare, est non vehicula gravida, dolor odio ullamcorper ex, eget suscipit eros risus id risus."
+    }
+  ]
+}

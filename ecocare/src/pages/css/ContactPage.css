@@ -8,10 +8,6 @@
     text-align: center;
 }
 
-h1{
-    font-size: 50px;
-}
-
 .line{
     width: 400px;
     height: 2px;
@@ -50,6 +46,9 @@ form{
     background-image: url(../../images/page-bg.jpg);
     padding-left: 5px;
 }
+#message::placeholder{
+    text-decoration: underline;
+}
 #submit{
     width: 100px;
     height: 50px;
@@ -58,6 +57,9 @@ form{
     border: 2px solid #468148;
     font-size: 30px;
     margin-left: 310px;
+}
+#submit:hover{
+    background-color: #468148;
 }
 ::placeholder{
     color: #468148;

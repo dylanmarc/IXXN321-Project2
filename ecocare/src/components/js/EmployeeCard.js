@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import '../css/employee-card.css';
 
 export default function EmployeeCard(props) {
-    
+
     return (
         <Link to={{
             pathname: `/employee/${props.name}`,
@@ -17,7 +17,7 @@ export default function EmployeeCard(props) {
 
             <div className='card-container'>
                 <div className="card-top">
-                    <img className="employee-img" src={require("../../images/"+props.image+".png")} />
+                    <img className="employee-img" src={require("../../images/" + props.image + ".png")} />
                 </div>
                 <div className="card-bottom">
                     <h1>{props.name}</h1>

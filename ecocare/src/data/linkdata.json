@@ -1,24 +1,22 @@
 {
-    "linkdata": [
-      {
-        "title": "MISSION",
-        "blurb": "What we are trying to achieve as a company",
-        "image": "mission",
-        "path": "/mission"
-
-      },
-      {
-        "title": "OUR TEAM",
-        "blurb": "Our team that makes all of this possible",
-        "image": "team",
-        "path": "/team"
-      },
-      {
-        "title": "CONTACT US",
-        "blurb": "Send us a message",
-        "image": "mail",
-        "path": "/contactpage"
-      }
-    ]
-
-  }
+  "linkdata": [
+    {
+      "title": "MISSION",
+      "blurb": "What we are trying to achieve as a company",
+      "image": "mission",
+      "path": "/mission"
+    },
+    {
+      "title": "OUR TEAM",
+      "blurb": "Our team that makes all of this possible",
+      "image": "team",
+      "path": "/team"
+    },
+    {
+      "title": "CONTACT US",
+      "blurb": "Send us a message",
+      "image": "mail",
+      "path": "/contactpage"
+    }
+  ]
+}

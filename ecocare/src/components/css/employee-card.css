@@ -21,18 +21,10 @@ a{
     color: black;
 }
 
-.card-top{
-
-}
-
 .employee-img{
     width: 140px;
     border-radius: 100px;
     margin-top: 20px;
-}
-
-.card-bottom{
-
 }
 
 .card-bottom h1{
